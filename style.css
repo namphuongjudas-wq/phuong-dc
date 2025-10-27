@@ -1,23 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
     color: #333;
 }
+p{
+    margin: 16px 0;
 
+}
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 30px 0 auto;
     background-color: white;
-    padding: 30px;
+    padding: 35px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
     text-align: center;
-    border-bottom: 2px solid #007acc;
+    border-bottom: 2px solid #a7cc00;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
@@ -25,7 +28,7 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
-    background-color: #007acc;
+    background-color: #b4cc00;
     border-radius: 50%;
     margin: 0 auto 20px;
     display: flex;
@@ -36,8 +39,8 @@ body {
 }
 
 h1 {
-    color: #007acc;
-    margin: 10px 0;
+    color: #7ecc00;
+    margin: 36px 0;
 }
 
 h2 {
@@ -59,7 +62,7 @@ h2 {
 }
 
 .skills-list li {
-    background-color: #007acc;
+    background-color: #92cc00;
     color: white;
     padding: 8px 15px;
     margin: 5px 0;
@@ -70,19 +73,19 @@ h2 {
 
 .project {
     border: 1px solid #ddd;
-    padding: 20px;
-    margin: 15px 0;
+    padding: 30px;
+    margin: 25px 0;
     border-radius: 5px;
     background-color: #fafafa;
 }
 
 .project h3 {
-    color: #007acc;
+    color: #a3cc00;
     margin-top: 0;
 }
 
 .project-link {
-    color: #007acc;
+    color: #99cc00;
     text-decoration: none;
     font-weight: bold;
 }
@@ -92,15 +95,15 @@ h2 {
 }
 
 .education-item {
-    margin: 15px 0;
-    padding: 15px;
+    margin: 30px 0;
+    padding: 30px;
     background-color: #f0f8ff;
-    border-left: 4px solid #007acc;
+    border-left: 4px solid #b4cc00;
 }
 
 .experience-item {
-    margin: 15px 0;
-    padding: 15px;
+    margin: 30px 0;
+    padding: 30px;
     background-color: #fff8f0;
     border-left: 4px solid #ff9500;
 }
@@ -114,7 +117,7 @@ h2 {
 }
 
 .social-links a {
-    color: #007acc;
+    color: #b1cc00;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
